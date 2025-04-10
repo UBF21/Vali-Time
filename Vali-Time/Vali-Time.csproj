@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net7.0;net8.0;net9.0</TargetFrameworks>
+        <RootNamespace>Vali_Time</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Title>Vali-Time</Title>
+        <Authors>Felipe Rafael Montenegro Morriberon</Authors>
+        <Description>
+            Vali-Time is a lightweight .NET library for converting and managing time units, including milliseconds, seconds, minutes, and hours. It offers a precise and flexible API for time conversions, summations, breakdowns, and human-readable formatting. With support for full precision calculations, optional rounding, and cultural formatting, Vali-Time is ideal for handling time-related operations in .NET applications, integrating seamlessly with dependency injection frameworks.
+        </Description>
+        <PackageProjectUrl>#</PackageProjectUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/UBF21/Vali-Time</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes>
+            Vali-FileSize v1.0.0 introduces a lightweight and efficient solution for file size management in .NET applications:
+            - Support for conversions across multiple units (bytes, kilobytes, megabytes, gigabytes, terabytes, and petabytes), providing precise and flexible size handling.
+            - Addition of human-readable formatting with customizable decimal precision and cultural support, making file sizes easy to display and understand.
+            - Introduction of automatic unit detection, allowing developers to effortlessly determine the most appropriate unit for any given size, enhancing usability in diverse scenarios.
+            Designed for seamless integration with .NET Standard 2.0 and above, Vali-FileSize ensures compatibility and reliability for modern .NET development.
+        </PackageReleaseNotes>
+        <PackageTags>Time;converter;formatting;utility;dotnet</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <Copyright>Copyright © 2025 - FM. All rights reserved.</Copyright>
+        <Version>1.0.0</Version>
+        <PackageIcon>logo-Vali-Time.png</PackageIcon>
+        <PackageId>Vali-Time</PackageId>
+        <Product>Vali-Time</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="logo-Vali-Time.png">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+    </ItemGroup>
+    
+</Project>
